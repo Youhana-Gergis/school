@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container .navbar .nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .navbar .nav li {
+  list-style: none;
+  padding-top: 25px;
+}
+.container .navbar .nav li a {
+  font-size: 20px;
+  color: #fefefe;
+  text-decoration: none;
+  padding: 0 20px;
+}
+.container .search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+.container .search input {
+  background: #d9d9d9;
+  border: none;
+  outline: none;
+  width: 250px;
+  height: 25px;
+  border-radius: 20px;
+}
+.container .subjects {
+  padding: 20px 30px;
+}
+.container .subjects h2 {
+  color: #f6f6f6;
+  margin-bottom: 20px;
+}
+.container .subjects .subject-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .subjects .subject-all .subject {
+  margin: 0 10px;
+  background-image: url("../img/one.png");
+  background-size: cover;
+  padding: 15px;
+  width: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+}
+.container .subjects .subject-all .subject .subject-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .subjects .subject-all .subject .subject-title .date {
+  display: flex;
+  align-items: center;
+}
+.container .subjects .subject-all .subject .subject-title .date h5 {
+  color: #DCCFCF;
+}
+.container .subjects .subject-all .subject .subject-title .date span {
+  color: #ABA8A8;
+  padding: 0 0 0 10px;
+}
+.container .subjects .subject-all .subject h5 {
+  color: #D7D8F3;
+}
+.container .subjects .subject-all .subject .subject-body p:nth-child(1) {
+  color: #DDEBF5;
+  padding-top: 5px;
+}
+.container .subjects .subject-all .subject .subject-body p:nth-child(2) {
+  color: #D6D9DC;
+  padding-top: 10px;
+}
+.container .subjects .subject-all .subject .progress-parent .progress {
+  display: flex;
+  overflow: hidden;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.875rem;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.container .subjects .subject-all .subject .progress-parent .progress .progress-bar {
+  height: 10px;
+  width: 50px;
+  background: #344675;
+  border-radius: 0.875rem;
+}
+.container .subjects .subject-all .subject .progress-parent .element-progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 7px;
+}
+.container .subjects .subject-all .subject .progress-parent .element-progress h5 {
+  color: #E8F5FF;
+}
+.container .subjects .subject-all .subject .progress-parent .element-progress span {
+  color: #ffffff;
+}
+.container .subjects .subject-all .subject-time {
+  background-image: url("../img/one.png");
+  background-size: cover;
+  padding: 15px;
+  width: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  position: relative;
+}
+.container .subjects .subject-all .subject-time img {
+  position: absolute;
+  top: -80px;
+  left: 40px;
+}
+.container .subjects .subject-all .subject-time p {
+  padding-top: 80px;
+  color: #DDEBF5;
+}
+.container .subjects .subject-all .subject-time .button {
+  padding: 16px 0 16px 0;
+}
+.container .subjects .subject-all .subject-time .button button {
+  padding: 7px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  background: #374951;
+  color: #ffffff;
+  border-radius: 7px;
+}
+.container .subject-table {
+  padding: 0 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .subject-table .the-subjects {
+  margin: 0 10px;
+  background-image: url("../img/one.png");
+  background-size: cover;
+  padding: 15px;
+  width: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+}
+.container .subject-table .the-subjects h2 {
+  color: #F6F6F6;
+}
+.container .subject-table .the-subjects .popular-subjects {
+  padding-top: 15px;
+}
+.container .subject-table .the-subjects .popular-subjects .popular-subject {
+  margin-bottom: 10px;
+  background: #374951;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+.container .subject-table .the-subjects .popular-subjects .popular-subject .name-subject h3 {
+  color: #F6F6F6;
+}
+.container .subject-table .the-subjects .popular-subjects .popular-subject .name-subject span {
+  color: #C4C4C4;
+}
+.container .subject-table .popular-teachar {
+  margin: 0 10px;
+  background-image: url("../img/one.png");
+  background-size: cover;
+  padding: 15px;
+  width: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  flex: 0 0 70%;
+}
+.container .subject-table .popular-teachar h2 {
+  color: #F6F6F6;
+  margin-bottom: 15px;
+}
+.container .subject-table .popular-teachar .table {
+  overflow-x: hidden;
+  width: 100%;
+}
+.container .subject-table .popular-teachar .table tr td {
+  color: #F6F6F6;
+  margin-top: 20px;
+  padding: 0 3px;
+  overflow: hidden;
+}
+.container .subject-table .popular-teachar .table tr button {
+  background: #374951;
+  border: 1px solid #ffffff;
+  padding: 5px 20px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+@media (max-width: 922px) {
+  .container .subjects .subject-all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 70px;
+  }
+  .container .subjects .subject-all .subject-time {
+    width: 100%;
+  }
+  .container .subjects .subject-all .subject-time img {
+    left: 100px;
+  }
+  .container .subject-table {
+    flex-direction: column;
+  }
+  .container .subject-table .the-subjects {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container .subject-table .popular-teachar {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .container .subjects {
+    width: 100%;
+  }
+  .container .subjects .subject-all {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 70px;
+  }
+  .container .subjects .subject-all .subject {
+    width: 100%;
+  }
+  .container .subjects .subject-all .subject-time {
+    width: 100%;
+  }
+  .container .subjects .subject-all .subject-time img {
+    left: 150px;
+  }
+}
+@media (max-width: 567px) {
+  .container .navbar .nav li a {
+    padding: 5px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
